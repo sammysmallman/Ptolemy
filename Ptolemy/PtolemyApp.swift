@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct PtolemyApp: App {
+    let connection = Connection()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

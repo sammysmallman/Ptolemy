@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95A168425191D4F005B6E37 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A168325191D4F005B6E37 /* Connection.swift */; };
+		D9F0F70B251A4C1800970BA4 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0F70A251A4C1800970BA4 /* OSCKit */; };
+		D9F0F713251A4EAB00970BA4 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */; };
 		D9FDD2F225175039001F831E /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD2F125175039001F831E /* PtolemyApp.swift */; };
 		D9FDD2F425175039001F831E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD2F325175039001F831E /* ContentView.swift */; };
 		D9FDD2F62517503A001F831E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDD2F52517503A001F831E /* Assets.xcassets */; };
 		D9FDD2F92517503A001F831E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDD2F82517503A001F831E /* Preview Assets.xcassets */; };
 		D9FDD3042517503A001F831E /* PtolemyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3032517503A001F831E /* PtolemyTests.swift */; };
 		D9FDD30F2517503A001F831E /* PtolemyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD30E2517503A001F831E /* PtolemyUITests.swift */; };
+		D9FDD322251756F9001F831E /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD321251756F9001F831E /* TabNavigationView.swift */; };
+		D9FDD3272517571E001F831E /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3262517571E001F831E /* SideBarNavigation.swift */; };
+		D9FDD32C2517580A001F831E /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD32B2517580A001F831E /* PacketsView.swift */; };
+		D9FDD33125175834001F831E /* AutomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD33025175834001F831E /* AutomationView.swift */; };
+		D9FDD3372517669F001F831E /* ConnectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D95A168325191D4F005B6E37 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		D9FDD2EE25175039001F831E /* Ptolemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ptolemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FDD2F125175039001F831E /* PtolemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyApp.swift; sourceTree = "<group>"; };
 		D9FDD2F325175039001F831E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,11 @@
 		D9FDD30A2517503A001F831E /* PtolemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtolemyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FDD30E2517503A001F831E /* PtolemyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyUITests.swift; sourceTree = "<group>"; };
 		D9FDD3102517503A001F831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FDD321251756F9001F831E /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		D9FDD3262517571E001F831E /* SideBarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarNavigation.swift; sourceTree = "<group>"; };
+		D9FDD32B2517580A001F831E /* PacketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketsView.swift; sourceTree = "<group>"; };
+		D9FDD33025175834001F831E /* AutomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationView.swift; sourceTree = "<group>"; };
+		D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F0F70B251A4C1800970BA4 /* OSCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +116,13 @@
 				D9FDD2F52517503A001F831E /* Assets.xcassets */,
 				D9FDD2FA2517503A001F831E /* Info.plist */,
 				D9FDD2F72517503A001F831E /* Preview Content */,
+				D9FDD321251756F9001F831E /* TabNavigationView.swift */,
+				D9FDD3262517571E001F831E /* SideBarNavigation.swift */,
+				D9FDD32B2517580A001F831E /* PacketsView.swift */,
+				D9FDD33025175834001F831E /* AutomationView.swift */,
+				D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */,
+				D95A168325191D4F005B6E37 /* Connection.swift */,
+				D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */,
 			);
 			path = Ptolemy;
 			sourceTree = "<group>";
@@ -146,6 +169,9 @@
 			dependencies = (
 			);
 			name = Ptolemy;
+			packageProductDependencies = (
+				D9F0F70A251A4C1800970BA4 /* OSCKit */,
+			);
 			productName = Ptolemy;
 			productReference = D9FDD2EE25175039001F831E /* Ptolemy.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +243,9 @@
 				Base,
 			);
 			mainGroup = D9FDD2E525175039001F831E;
+			packageReferences = (
+				D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */,
+			);
 			productRefGroup = D9FDD2EF25175039001F831E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FDD3272517571E001F831E /* SideBarNavigation.swift in Sources */,
 				D9FDD2F425175039001F831E /* ContentView.swift in Sources */,
+				D9FDD32C2517580A001F831E /* PacketsView.swift in Sources */,
+				D95A168425191D4F005B6E37 /* Connection.swift in Sources */,
+				D9FDD3372517669F001F831E /* ConnectionSettingsView.swift in Sources */,
+				D9FDD33125175834001F831E /* AutomationView.swift in Sources */,
 				D9FDD2F225175039001F831E /* PtolemyApp.swift in Sources */,
+				D9FDD322251756F9001F831E /* TabNavigationView.swift in Sources */,
+				D9F0F713251A4EAB00970BA4 /* UserDefaultKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SammySmallman/OSCKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9F0F70A251A4C1800970BA4 /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9FDD2E625175039001F831E /* Project object */;
 }
