@@ -1,13 +1,13 @@
 //
-//  PtolemyUITests.swift
-//  PtolemyUITests
+//  Tests_macOS.swift
+//  Tests macOS
 //
-//  Created by Sam Smallman on 20/09/2020.
+//  Created by Sam Smallman on 28/09/2020.
 //
 
 import XCTest
 
-class PtolemyUITests: XCTestCase {
+class Tests_macOS: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

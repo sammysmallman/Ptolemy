@@ -3,82 +3,88 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D95A168425191D4F005B6E37 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A168325191D4F005B6E37 /* Connection.swift */; };
-		D9F0F70B251A4C1800970BA4 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0F70A251A4C1800970BA4 /* OSCKit */; };
-		D9F0F713251A4EAB00970BA4 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */; };
-		D9FDD2F225175039001F831E /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD2F125175039001F831E /* PtolemyApp.swift */; };
-		D9FDD2F425175039001F831E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD2F325175039001F831E /* ContentView.swift */; };
-		D9FDD2F62517503A001F831E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDD2F52517503A001F831E /* Assets.xcassets */; };
-		D9FDD2F92517503A001F831E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FDD2F82517503A001F831E /* Preview Assets.xcassets */; };
-		D9FDD3042517503A001F831E /* PtolemyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3032517503A001F831E /* PtolemyTests.swift */; };
-		D9FDD30F2517503A001F831E /* PtolemyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD30E2517503A001F831E /* PtolemyUITests.swift */; };
-		D9FDD322251756F9001F831E /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD321251756F9001F831E /* TabNavigationView.swift */; };
-		D9FDD3272517571E001F831E /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3262517571E001F831E /* SideBarNavigation.swift */; };
-		D9FDD32C2517580A001F831E /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD32B2517580A001F831E /* PacketsView.swift */; };
-		D9FDD33125175834001F831E /* AutomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD33025175834001F831E /* AutomationView.swift */; };
-		D9FDD3372517669F001F831E /* ConnectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */; };
+		D9391F592522560500CDCF60 /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F582522560500CDCF60 /* SideBarNavigation.swift */; };
+		D9391F5A2522560500CDCF60 /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F582522560500CDCF60 /* SideBarNavigation.swift */; };
+		D9391F5C2522561600CDCF60 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5B2522561600CDCF60 /* TabNavigation.swift */; };
+		D9391F5E2522574200CDCF60 /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5D2522574200CDCF60 /* PacketsView.swift */; };
+		D9391F602522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
+		D9391F612522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
+		D9391F622522586300CDCF60 /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5D2522574200CDCF60 /* PacketsView.swift */; };
+		D9AF07C2252254CD00B2693B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07C1252254CD00B2693B /* Tests_iOS.swift */; };
+		D9AF07CD252254CD00B2693B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07CC252254CD00B2693B /* Tests_macOS.swift */; };
+		D9AF07CF252254CD00B2693B /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A6252254CC00B2693B /* PtolemyApp.swift */; };
+		D9AF07D0252254CD00B2693B /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A6252254CC00B2693B /* PtolemyApp.swift */; };
+		D9AF07D1252254CD00B2693B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A7252254CC00B2693B /* ContentView.swift */; };
+		D9AF07D2252254CD00B2693B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A7252254CC00B2693B /* ContentView.swift */; };
+		D9AF07D3252254CD00B2693B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AF07A8252254CD00B2693B /* Assets.xcassets */; };
+		D9AF07D4252254CD00B2693B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AF07A8252254CD00B2693B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D9FDD3002517503A001F831E /* PBXContainerItemProxy */ = {
+		D9AF07BE252254CD00B2693B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D9FDD2E625175039001F831E /* Project object */;
+			containerPortal = D9AF07A1252254CC00B2693B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9FDD2ED25175039001F831E;
-			remoteInfo = Ptolemy;
+			remoteGlobalIDString = D9AF07AC252254CD00B2693B;
+			remoteInfo = "Ptolemy (iOS)";
 		};
-		D9FDD30B2517503A001F831E /* PBXContainerItemProxy */ = {
+		D9AF07C9252254CD00B2693B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D9FDD2E625175039001F831E /* Project object */;
+			containerPortal = D9AF07A1252254CC00B2693B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9FDD2ED25175039001F831E;
-			remoteInfo = Ptolemy;
+			remoteGlobalIDString = D9AF07B4252254CD00B2693B;
+			remoteInfo = "Ptolemy (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D95A168325191D4F005B6E37 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
-		D9FDD2EE25175039001F831E /* Ptolemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ptolemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9FDD2F125175039001F831E /* PtolemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyApp.swift; sourceTree = "<group>"; };
-		D9FDD2F325175039001F831E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D9FDD2F52517503A001F831E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9FDD2F82517503A001F831E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9FDD2FA2517503A001F831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9FDD2FF2517503A001F831E /* PtolemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtolemyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9FDD3032517503A001F831E /* PtolemyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyTests.swift; sourceTree = "<group>"; };
-		D9FDD3052517503A001F831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9FDD30A2517503A001F831E /* PtolemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtolemyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9FDD30E2517503A001F831E /* PtolemyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyUITests.swift; sourceTree = "<group>"; };
-		D9FDD3102517503A001F831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9FDD321251756F9001F831E /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
-		D9FDD3262517571E001F831E /* SideBarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarNavigation.swift; sourceTree = "<group>"; };
-		D9FDD32B2517580A001F831E /* PacketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketsView.swift; sourceTree = "<group>"; };
-		D9FDD33025175834001F831E /* AutomationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationView.swift; sourceTree = "<group>"; };
-		D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsView.swift; sourceTree = "<group>"; };
+		D9391F582522560500CDCF60 /* SideBarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarNavigation.swift; sourceTree = "<group>"; };
+		D9391F5B2522561600CDCF60 /* TabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
+		D9391F5D2522574200CDCF60 /* PacketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketsView.swift; sourceTree = "<group>"; };
+		D9391F5F2522585E00CDCF60 /* AutomationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationsView.swift; sourceTree = "<group>"; };
+		D9AF07A6252254CC00B2693B /* PtolemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyApp.swift; sourceTree = "<group>"; };
+		D9AF07A7252254CC00B2693B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AF07A8252254CD00B2693B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AF07AD252254CD00B2693B /* Ptolemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ptolemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AF07B0252254CD00B2693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AF07B5252254CD00B2693B /* Ptolemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ptolemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AF07B7252254CD00B2693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AF07B8252254CD00B2693B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D9AF07BD252254CD00B2693B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AF07C1252254CD00B2693B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D9AF07C3252254CD00B2693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AF07C8252254CD00B2693B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AF07CC252254CD00B2693B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D9AF07CE252254CD00B2693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9FDD2EB25175039001F831E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9F0F70B251A4C1800970BA4 /* OSCKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9FDD2FC2517503A001F831E /* Frameworks */ = {
+		D9AF07AA252254CD00B2693B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FDD3072517503A001F831E /* Frameworks */ = {
+		D9AF07B2252254CD00B2693B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AF07BA252254CD00B2693B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AF07C5252254CD00B2693B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,153 +94,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9FDD2E525175039001F831E = {
+		D9AF07A0252254CC00B2693B = {
 			isa = PBXGroup;
 			children = (
-				D9FDD2F025175039001F831E /* Ptolemy */,
-				D9FDD3022517503A001F831E /* PtolemyTests */,
-				D9FDD30D2517503A001F831E /* PtolemyUITests */,
-				D9FDD2EF25175039001F831E /* Products */,
+				D9AF07A5252254CC00B2693B /* Shared */,
+				D9AF07AF252254CD00B2693B /* iOS */,
+				D9AF07B6252254CD00B2693B /* macOS */,
+				D9AF07C0252254CD00B2693B /* Tests iOS */,
+				D9AF07CB252254CD00B2693B /* Tests macOS */,
+				D9AF07AE252254CD00B2693B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D9FDD2EF25175039001F831E /* Products */ = {
+		D9AF07A5252254CC00B2693B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDD2EE25175039001F831E /* Ptolemy.app */,
-				D9FDD2FF2517503A001F831E /* PtolemyTests.xctest */,
-				D9FDD30A2517503A001F831E /* PtolemyUITests.xctest */,
+				D9AF07A6252254CC00B2693B /* PtolemyApp.swift */,
+				D9AF07A7252254CC00B2693B /* ContentView.swift */,
+				D9AF07A8252254CD00B2693B /* Assets.xcassets */,
+				D9391F582522560500CDCF60 /* SideBarNavigation.swift */,
+				D9391F5D2522574200CDCF60 /* PacketsView.swift */,
+				D9391F5F2522585E00CDCF60 /* AutomationsView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D9AF07AE252254CD00B2693B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF07AD252254CD00B2693B /* Ptolemy.app */,
+				D9AF07B5252254CD00B2693B /* Ptolemy.app */,
+				D9AF07BD252254CD00B2693B /* Tests iOS.xctest */,
+				D9AF07C8252254CD00B2693B /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9FDD2F025175039001F831E /* Ptolemy */ = {
+		D9AF07AF252254CD00B2693B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDD2F125175039001F831E /* PtolemyApp.swift */,
-				D9FDD2F325175039001F831E /* ContentView.swift */,
-				D9FDD2F52517503A001F831E /* Assets.xcassets */,
-				D9FDD2FA2517503A001F831E /* Info.plist */,
-				D9FDD2F72517503A001F831E /* Preview Content */,
-				D9FDD321251756F9001F831E /* TabNavigationView.swift */,
-				D9FDD3262517571E001F831E /* SideBarNavigation.swift */,
-				D9FDD32B2517580A001F831E /* PacketsView.swift */,
-				D9FDD33025175834001F831E /* AutomationView.swift */,
-				D9FDD3362517669E001F831E /* ConnectionSettingsView.swift */,
-				D95A168325191D4F005B6E37 /* Connection.swift */,
-				D9F0F712251A4EAB00970BA4 /* UserDefaultKeys.swift */,
+				D9AF07B0252254CD00B2693B /* Info.plist */,
+				D9391F5B2522561600CDCF60 /* TabNavigation.swift */,
 			);
-			path = Ptolemy;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		D9FDD2F72517503A001F831E /* Preview Content */ = {
+		D9AF07B6252254CD00B2693B /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDD2F82517503A001F831E /* Preview Assets.xcassets */,
+				D9AF07B7252254CD00B2693B /* Info.plist */,
+				D9AF07B8252254CD00B2693B /* macOS.entitlements */,
 			);
-			path = "Preview Content";
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		D9FDD3022517503A001F831E /* PtolemyTests */ = {
+		D9AF07C0252254CD00B2693B /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDD3032517503A001F831E /* PtolemyTests.swift */,
-				D9FDD3052517503A001F831E /* Info.plist */,
+				D9AF07C1252254CD00B2693B /* Tests_iOS.swift */,
+				D9AF07C3252254CD00B2693B /* Info.plist */,
 			);
-			path = PtolemyTests;
+			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		D9FDD30D2517503A001F831E /* PtolemyUITests */ = {
+		D9AF07CB252254CD00B2693B /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9FDD30E2517503A001F831E /* PtolemyUITests.swift */,
-				D9FDD3102517503A001F831E /* Info.plist */,
+				D9AF07CC252254CD00B2693B /* Tests_macOS.swift */,
+				D9AF07CE252254CD00B2693B /* Info.plist */,
 			);
-			path = PtolemyUITests;
+			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9FDD2ED25175039001F831E /* Ptolemy */ = {
+		D9AF07AC252254CD00B2693B /* Ptolemy (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9FDD3132517503A001F831E /* Build configuration list for PBXNativeTarget "Ptolemy" */;
+			buildConfigurationList = D9AF07D7252254CD00B2693B /* Build configuration list for PBXNativeTarget "Ptolemy (iOS)" */;
 			buildPhases = (
-				D9FDD2EA25175039001F831E /* Sources */,
-				D9FDD2EB25175039001F831E /* Frameworks */,
-				D9FDD2EC25175039001F831E /* Resources */,
+				D9AF07A9252254CD00B2693B /* Sources */,
+				D9AF07AA252254CD00B2693B /* Frameworks */,
+				D9AF07AB252254CD00B2693B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ptolemy;
-			packageProductDependencies = (
-				D9F0F70A251A4C1800970BA4 /* OSCKit */,
-			);
-			productName = Ptolemy;
-			productReference = D9FDD2EE25175039001F831E /* Ptolemy.app */;
+			name = "Ptolemy (iOS)";
+			productName = "Ptolemy (iOS)";
+			productReference = D9AF07AD252254CD00B2693B /* Ptolemy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D9FDD2FE2517503A001F831E /* PtolemyTests */ = {
+		D9AF07B4252254CD00B2693B /* Ptolemy (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9FDD3162517503A001F831E /* Build configuration list for PBXNativeTarget "PtolemyTests" */;
+			buildConfigurationList = D9AF07DA252254CD00B2693B /* Build configuration list for PBXNativeTarget "Ptolemy (macOS)" */;
 			buildPhases = (
-				D9FDD2FB2517503A001F831E /* Sources */,
-				D9FDD2FC2517503A001F831E /* Frameworks */,
-				D9FDD2FD2517503A001F831E /* Resources */,
+				D9AF07B1252254CD00B2693B /* Sources */,
+				D9AF07B2252254CD00B2693B /* Frameworks */,
+				D9AF07B3252254CD00B2693B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D9FDD3012517503A001F831E /* PBXTargetDependency */,
 			);
-			name = PtolemyTests;
-			productName = PtolemyTests;
-			productReference = D9FDD2FF2517503A001F831E /* PtolemyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "Ptolemy (macOS)";
+			productName = "Ptolemy (macOS)";
+			productReference = D9AF07B5252254CD00B2693B /* Ptolemy.app */;
+			productType = "com.apple.product-type.application";
 		};
-		D9FDD3092517503A001F831E /* PtolemyUITests */ = {
+		D9AF07BC252254CD00B2693B /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9FDD3192517503A001F831E /* Build configuration list for PBXNativeTarget "PtolemyUITests" */;
+			buildConfigurationList = D9AF07DD252254CD00B2693B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				D9FDD3062517503A001F831E /* Sources */,
-				D9FDD3072517503A001F831E /* Frameworks */,
-				D9FDD3082517503A001F831E /* Resources */,
+				D9AF07B9252254CD00B2693B /* Sources */,
+				D9AF07BA252254CD00B2693B /* Frameworks */,
+				D9AF07BB252254CD00B2693B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D9FDD30C2517503A001F831E /* PBXTargetDependency */,
+				D9AF07BF252254CD00B2693B /* PBXTargetDependency */,
 			);
-			name = PtolemyUITests;
-			productName = PtolemyUITests;
-			productReference = D9FDD30A2517503A001F831E /* PtolemyUITests.xctest */;
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D9AF07BD252254CD00B2693B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D9AF07C7252254CD00B2693B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AF07E0252254CD00B2693B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D9AF07C4252254CD00B2693B /* Sources */,
+				D9AF07C5252254CD00B2693B /* Frameworks */,
+				D9AF07C6252254CD00B2693B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AF07CA252254CD00B2693B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D9AF07C8252254CD00B2693B /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D9FDD2E625175039001F831E /* Project object */ = {
+		D9AF07A1252254CC00B2693B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					D9FDD2ED25175039001F831E = {
+					D9AF07AC252254CD00B2693B = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					D9FDD2FE2517503A001F831E = {
+					D9AF07B4252254CD00B2693B = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = D9FDD2ED25175039001F831E;
 					};
-					D9FDD3092517503A001F831E = {
+					D9AF07BC252254CD00B2693B = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = D9FDD2ED25175039001F831E;
+						TestTargetID = D9AF07AC252254CD00B2693B;
+					};
+					D9AF07C7252254CD00B2693B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D9AF07B4252254CD00B2693B;
 					};
 				};
 			};
-			buildConfigurationList = D9FDD2E925175039001F831E /* Build configuration list for PBXProject "Ptolemy" */;
+			buildConfigurationList = D9AF07A4252254CC00B2693B /* Build configuration list for PBXProject "Ptolemy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,39 +272,44 @@
 				en,
 				Base,
 			);
-			mainGroup = D9FDD2E525175039001F831E;
-			packageReferences = (
-				D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */,
-			);
-			productRefGroup = D9FDD2EF25175039001F831E /* Products */;
+			mainGroup = D9AF07A0252254CC00B2693B;
+			productRefGroup = D9AF07AE252254CD00B2693B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9FDD2ED25175039001F831E /* Ptolemy */,
-				D9FDD2FE2517503A001F831E /* PtolemyTests */,
-				D9FDD3092517503A001F831E /* PtolemyUITests */,
+				D9AF07AC252254CD00B2693B /* Ptolemy (iOS) */,
+				D9AF07B4252254CD00B2693B /* Ptolemy (macOS) */,
+				D9AF07BC252254CD00B2693B /* Tests iOS */,
+				D9AF07C7252254CD00B2693B /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9FDD2EC25175039001F831E /* Resources */ = {
+		D9AF07AB252254CD00B2693B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FDD2F92517503A001F831E /* Preview Assets.xcassets in Resources */,
-				D9FDD2F62517503A001F831E /* Assets.xcassets in Resources */,
+				D9AF07D3252254CD00B2693B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FDD2FD2517503A001F831E /* Resources */ = {
+		D9AF07B3252254CD00B2693B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AF07D4252254CD00B2693B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AF07BB252254CD00B2693B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FDD3082517503A001F831E /* Resources */ = {
+		D9AF07C6252254CD00B2693B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,55 +319,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D9FDD2EA25175039001F831E /* Sources */ = {
+		D9AF07A9252254CD00B2693B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FDD3272517571E001F831E /* SideBarNavigation.swift in Sources */,
-				D9FDD2F425175039001F831E /* ContentView.swift in Sources */,
-				D9FDD32C2517580A001F831E /* PacketsView.swift in Sources */,
-				D95A168425191D4F005B6E37 /* Connection.swift in Sources */,
-				D9FDD3372517669F001F831E /* ConnectionSettingsView.swift in Sources */,
-				D9FDD33125175834001F831E /* AutomationView.swift in Sources */,
-				D9FDD2F225175039001F831E /* PtolemyApp.swift in Sources */,
-				D9FDD322251756F9001F831E /* TabNavigationView.swift in Sources */,
-				D9F0F713251A4EAB00970BA4 /* UserDefaultKeys.swift in Sources */,
+				D9391F602522585E00CDCF60 /* AutomationsView.swift in Sources */,
+				D9391F592522560500CDCF60 /* SideBarNavigation.swift in Sources */,
+				D9391F5C2522561600CDCF60 /* TabNavigation.swift in Sources */,
+				D9391F5E2522574200CDCF60 /* PacketsView.swift in Sources */,
+				D9AF07D1252254CD00B2693B /* ContentView.swift in Sources */,
+				D9AF07CF252254CD00B2693B /* PtolemyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FDD2FB2517503A001F831E /* Sources */ = {
+		D9AF07B1252254CD00B2693B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FDD3042517503A001F831E /* PtolemyTests.swift in Sources */,
+				D9391F612522585E00CDCF60 /* AutomationsView.swift in Sources */,
+				D9391F5A2522560500CDCF60 /* SideBarNavigation.swift in Sources */,
+				D9391F622522586300CDCF60 /* PacketsView.swift in Sources */,
+				D9AF07D2252254CD00B2693B /* ContentView.swift in Sources */,
+				D9AF07D0252254CD00B2693B /* PtolemyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FDD3062517503A001F831E /* Sources */ = {
+		D9AF07B9252254CD00B2693B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FDD30F2517503A001F831E /* PtolemyUITests.swift in Sources */,
+				D9AF07C2252254CD00B2693B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AF07C4252254CD00B2693B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AF07CD252254CD00B2693B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D9FDD3012517503A001F831E /* PBXTargetDependency */ = {
+		D9AF07BF252254CD00B2693B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9FDD2ED25175039001F831E /* Ptolemy */;
-			targetProxy = D9FDD3002517503A001F831E /* PBXContainerItemProxy */;
+			target = D9AF07AC252254CD00B2693B /* Ptolemy (iOS) */;
+			targetProxy = D9AF07BE252254CD00B2693B /* PBXContainerItemProxy */;
 		};
-		D9FDD30C2517503A001F831E /* PBXTargetDependency */ = {
+		D9AF07CA252254CD00B2693B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9FDD2ED25175039001F831E /* Ptolemy */;
-			targetProxy = D9FDD30B2517503A001F831E /* PBXContainerItemProxy */;
+			target = D9AF07B4252254CD00B2693B /* Ptolemy (macOS) */;
+			targetProxy = D9AF07C9252254CD00B2693B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D9FDD3112517503A001F831E /* Debug */ = {
+		D9AF07D5252254CD00B2693B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,17 +427,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D9FDD3122517503A001F831E /* Release */ = {
+		D9AF07D6252254CD00B2693B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,203 +480,244 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D9AF07D8252254CD00B2693B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AUEN8L88X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.Ptolemy;
+				PRODUCT_NAME = Ptolemy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AF07D9252254CD00B2693B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AUEN8L88X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.Ptolemy;
+				PRODUCT_NAME = Ptolemy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D9FDD3142517503A001F831E /* Debug */ = {
+		D9AF07DB252254CD00B2693B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ptolemy/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Ptolemy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.Ptolemy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ptolemy;
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D9FDD3152517503A001F831E /* Release */ = {
+		D9AF07DC252254CD00B2693B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ptolemy/Preview Content\"";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Ptolemy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.Ptolemy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ptolemy;
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		D9FDD3172517503A001F831E /* Debug */ = {
+		D9AF07DE252254CD00B2693B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
-				INFOPLIST_FILE = PtolemyTests/Info.plist;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.PtolemyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.artificers.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ptolemy.app/Ptolemy";
+				TEST_TARGET_NAME = "Ptolemy (iOS)";
 			};
 			name = Debug;
 		};
-		D9FDD3182517503A001F831E /* Release */ = {
+		D9AF07DF252254CD00B2693B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
-				INFOPLIST_FILE = PtolemyTests/Info.plist;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.PtolemyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.artificers.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ptolemy.app/Ptolemy";
+				TEST_TARGET_NAME = "Ptolemy (iOS)";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D9FDD31A2517503A001F831E /* Debug */ = {
+		D9AF07E1252254CD00B2693B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
-				INFOPLIST_FILE = PtolemyUITests/Info.plist;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.PtolemyUITests;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.artificers.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ptolemy;
+				TEST_TARGET_NAME = "Ptolemy (macOS)";
 			};
 			name = Debug;
 		};
-		D9FDD31B2517503A001F831E /* Release */ = {
+		D9AF07E2252254CD00B2693B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
-				INFOPLIST_FILE = PtolemyUITests/Info.plist;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.artificers.PtolemyUITests;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.artificers.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ptolemy;
+				TEST_TARGET_NAME = "Ptolemy (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9FDD2E925175039001F831E /* Build configuration list for PBXProject "Ptolemy" */ = {
+		D9AF07A4252254CC00B2693B /* Build configuration list for PBXProject "Ptolemy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9FDD3112517503A001F831E /* Debug */,
-				D9FDD3122517503A001F831E /* Release */,
+				D9AF07D5252254CD00B2693B /* Debug */,
+				D9AF07D6252254CD00B2693B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9FDD3132517503A001F831E /* Build configuration list for PBXNativeTarget "Ptolemy" */ = {
+		D9AF07D7252254CD00B2693B /* Build configuration list for PBXNativeTarget "Ptolemy (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9FDD3142517503A001F831E /* Debug */,
-				D9FDD3152517503A001F831E /* Release */,
+				D9AF07D8252254CD00B2693B /* Debug */,
+				D9AF07D9252254CD00B2693B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9FDD3162517503A001F831E /* Build configuration list for PBXNativeTarget "PtolemyTests" */ = {
+		D9AF07DA252254CD00B2693B /* Build configuration list for PBXNativeTarget "Ptolemy (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9FDD3172517503A001F831E /* Debug */,
-				D9FDD3182517503A001F831E /* Release */,
+				D9AF07DB252254CD00B2693B /* Debug */,
+				D9AF07DC252254CD00B2693B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9FDD3192517503A001F831E /* Build configuration list for PBXNativeTarget "PtolemyUITests" */ = {
+		D9AF07DD252254CD00B2693B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9FDD31A2517503A001F831E /* Debug */,
-				D9FDD31B2517503A001F831E /* Release */,
+				D9AF07DE252254CD00B2693B /* Debug */,
+				D9AF07DF252254CD00B2693B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AF07E0252254CD00B2693B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AF07E1252254CD00B2693B /* Debug */,
+				D9AF07E2252254CD00B2693B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SammySmallman/OSCKit";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D9F0F70A251A4C1800970BA4 /* OSCKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9F0F709251A4C1800970BA4 /* XCRemoteSwiftPackageReference "OSCKit" */;
-			productName = OSCKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D9FDD2E625175039001F831E /* Project object */;
+	rootObject = D9AF07A1252254CC00B2693B /* Project object */;
 }
