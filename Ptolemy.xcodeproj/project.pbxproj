@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		D9391F602522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
 		D9391F612522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
 		D9391F622522586300CDCF60 /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5D2522574200CDCF60 /* PacketsView.swift */; };
+		D9456C2E258E41EF0084620E /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9456C2D258E41EF0084620E /* OSCKit */; };
+		D9456C95258E6B7A0084620E /* TailwindCSSColors in Frameworks */ = {isa = PBXBuildFile; productRef = D9456C94258E6B7A0084620E /* TailwindCSSColors */; };
 		D9AF07C2252254CD00B2693B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07C1252254CD00B2693B /* Tests_iOS.swift */; };
 		D9AF07CD252254CD00B2693B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07CC252254CD00B2693B /* Tests_macOS.swift */; };
 		D9AF07CF252254CD00B2693B /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A6252254CC00B2693B /* PtolemyApp.swift */; };
@@ -67,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9456C95258E6B7A0084620E /* TailwindCSSColors in Frameworks */,
+				D9456C2E258E41EF0084620E /* OSCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +98,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91B056C253B8713007AADD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9AF07A0252254CC00B2693B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +114,7 @@
 				D9AF07C0252254CD00B2693B /* Tests iOS */,
 				D9AF07CB252254CD00B2693B /* Tests macOS */,
 				D9AF07AE252254CD00B2693B /* Products */,
+				D91B056C253B8713007AADD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +194,10 @@
 			dependencies = (
 			);
 			name = "Ptolemy (iOS)";
+			packageProductDependencies = (
+				D9456C2D258E41EF0084620E /* OSCKit */,
+				D9456C94258E6B7A0084620E /* TailwindCSSColors */,
+			);
 			productName = "Ptolemy (iOS)";
 			productReference = D9AF07AD252254CD00B2693B /* Ptolemy.app */;
 			productType = "com.apple.product-type.application";
@@ -246,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					D9AF07AC252254CD00B2693B = {
 						CreatedOnToolsVersion = 12.0;
@@ -273,6 +289,10 @@
 				Base,
 			);
 			mainGroup = D9AF07A0252254CC00B2693B;
+			packageReferences = (
+				D9456C2C258E41EF0084620E /* XCRemoteSwiftPackageReference "OSCKit" */,
+				D9456C93258E6B7A0084620E /* XCRemoteSwiftPackageReference "TailwindCSSColors" */,
+			);
 			productRefGroup = D9AF07AE252254CD00B2693B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -538,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
@@ -562,6 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2AUEN8L88X;
@@ -718,6 +740,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9456C2C258E41EF0084620E /* XCRemoteSwiftPackageReference "OSCKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SammySmallman/OSCKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		D9456C93258E6B7A0084620E /* XCRemoteSwiftPackageReference "TailwindCSSColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sammysmallman/TailwindCSSColors";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9456C2D258E41EF0084620E /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9456C2C258E41EF0084620E /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
+		D9456C94258E6B7A0084620E /* TailwindCSSColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9456C93258E6B7A0084620E /* XCRemoteSwiftPackageReference "TailwindCSSColors" */;
+			productName = TailwindCSSColors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9AF07A1252254CC00B2693B /* Project object */;
 }

@@ -28,15 +28,17 @@ struct PacketsView: View {
                    Packet(title: "Get Part", message: "/eos/get/cue/*/*/index/*")]
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: gridItems, alignment: .center, spacing: 20) {
-                ForEach(packets, id: \.id) { packet in
-                    PacketCell(packet: packet)
+        VStack {
+            ScrollView {
+                LazyVGrid(columns: gridItems, alignment: .center, spacing: 20) {
+                    ForEach(packets, id: \.id) { packet in
+                        PacketCell(packet: packet)
+                    }
+                    .padding()
                 }
-                .padding()
             }
         }
-            .navigationTitle("Packets")
+        .navigationTitle("Packets")
     }
 }
 

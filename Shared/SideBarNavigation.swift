@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TailwindCSSColors
 
 struct SidebarNavigation: View {
         
@@ -27,31 +28,13 @@ struct SidebarNavigation: View {
             List {
                 NavigationLink(destination: PacketsView(), tag: Selection.packets, selection: optionalCurrentSelection) {
                     Label("Packets", systemImage: "cube.box")
+                        .foregroundColor(Color(Tailwind.color(.red500)))
                 }
                 NavigationLink(destination: AutomationsView(), tag: Selection.automations, selection: optionalCurrentSelection) {
                     Label("Automations", systemImage: "goforward")
                 }
             }
             .listStyle(SidebarListStyle())
-            
-            .toolbar {
-                #if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Menu {
-                        Section(header: Text("Units")) {
-//                            MeasurementUnitsPicker()
-                        }
-
-//                        CloudCoverageToggle()
-                    }
-                    label: {
-                        Label("Settings", systemImage: "gearshape")
-                    }
-                }
-                #endif
-            }
-            
-            Text("No Selection")
         }
     }
     

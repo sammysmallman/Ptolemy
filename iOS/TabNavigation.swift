@@ -23,15 +23,6 @@ struct TabNavigation: View {
                     Label("Automations", systemImage: "goforward")
                 }
                 .tag(Selection.automations)
-//
-//            NavigationView {
-//                SettingsView()
-//                    .navigationTitle("Settings")
-//            }
-//            .tabItem {
-//                Label("Settings", systemImage: "gearshape")
-//            }
-//            .tag(Selection.settings)
         }
     }
 }

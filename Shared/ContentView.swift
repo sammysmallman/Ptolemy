@@ -23,7 +23,7 @@ struct ContentView: View {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     #endif
     
-    @SceneStorage("currentSelection") private var currentSelection: Selection = .packets
+    @SceneStorage("currentSelection") private var currentSelection: Selection = .settings
     
     var body: some View {
         #if os(iOS)
