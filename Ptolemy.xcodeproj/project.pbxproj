@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9391F592522560500CDCF60 /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F582522560500CDCF60 /* SideBarNavigation.swift */; };
-		D9391F5A2522560500CDCF60 /* SideBarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F582522560500CDCF60 /* SideBarNavigation.swift */; };
-		D9391F5C2522561600CDCF60 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5B2522561600CDCF60 /* TabNavigation.swift */; };
-		D9391F5E2522574200CDCF60 /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5D2522574200CDCF60 /* PacketsView.swift */; };
-		D9391F602522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
-		D9391F612522585E00CDCF60 /* AutomationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5F2522585E00CDCF60 /* AutomationsView.swift */; };
-		D9391F622522586300CDCF60 /* PacketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9391F5D2522574200CDCF60 /* PacketsView.swift */; };
 		D9456C2E258E41EF0084620E /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9456C2D258E41EF0084620E /* OSCKit */; };
 		D9456C95258E6B7A0084620E /* TailwindCSSColors in Frameworks */ = {isa = PBXBuildFile; productRef = D9456C94258E6B7A0084620E /* TailwindCSSColors */; };
+		D9456CA2258E715B0084620E /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9D258E715B0084620E /* LogsView.swift */; };
+		D9456CA3258E715B0084620E /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9D258E715B0084620E /* LogsView.swift */; };
+		D9456CA4258E715B0084620E /* LogRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9E258E715B0084620E /* LogRowView.swift */; };
+		D9456CA5258E715B0084620E /* LogRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9E258E715B0084620E /* LogRowView.swift */; };
+		D9456CA6258E715B0084620E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9F258E715B0084620E /* Log.swift */; };
+		D9456CA7258E715B0084620E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456C9F258E715B0084620E /* Log.swift */; };
+		D9456CA8258E715B0084620E /* LogsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CA0258E715B0084620E /* LogsHeaderView.swift */; };
+		D9456CA9258E715B0084620E /* LogsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CA0258E715B0084620E /* LogsHeaderView.swift */; };
+		D9456CAA258E715B0084620E /* LogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CA1258E715B0084620E /* LogDetailView.swift */; };
+		D9456CAB258E715B0084620E /* LogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CA1258E715B0084620E /* LogDetailView.swift */; };
+		D9456CBB258E71AE0084620E /* OSCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CB8258E71AE0084620E /* OSCConnection.swift */; };
+		D9456CBC258E71AE0084620E /* OSCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CB8258E71AE0084620E /* OSCConnection.swift */; };
+		D9456CBD258E71AE0084620E /* OSCConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CB9258E71AE0084620E /* OSCConnectionView.swift */; };
+		D9456CBF258E71AE0084620E /* OSCVersionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CBA258E71AE0084620E /* OSCVersionFooterView.swift */; };
+		D9456CC0258E71AE0084620E /* OSCVersionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CBA258E71AE0084620E /* OSCVersionFooterView.swift */; };
+		D9456CCA258E71FC0084620E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CC9258E71FC0084620E /* Theme.swift */; };
+		D9456CCB258E71FC0084620E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9456CC9258E71FC0084620E /* Theme.swift */; };
+		D9456CD1258E7DA50084620E /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9456CD0258E7DA50084620E /* OSCKit */; };
+		D9456CD3258E7DA50084620E /* TailwindCSSColors in Frameworks */ = {isa = PBXBuildFile; productRef = D9456CD2258E7DA50084620E /* TailwindCSSColors */; };
 		D9AF07C2252254CD00B2693B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07C1252254CD00B2693B /* Tests_iOS.swift */; };
 		D9AF07CD252254CD00B2693B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07CC252254CD00B2693B /* Tests_macOS.swift */; };
 		D9AF07CF252254CD00B2693B /* PtolemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF07A6252254CC00B2693B /* PtolemyApp.swift */; };
@@ -44,10 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9391F582522560500CDCF60 /* SideBarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarNavigation.swift; sourceTree = "<group>"; };
-		D9391F5B2522561600CDCF60 /* TabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
-		D9391F5D2522574200CDCF60 /* PacketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketsView.swift; sourceTree = "<group>"; };
-		D9391F5F2522585E00CDCF60 /* AutomationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationsView.swift; sourceTree = "<group>"; };
+		D9456C9D258E715B0084620E /* LogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		D9456C9E258E715B0084620E /* LogRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRowView.swift; sourceTree = "<group>"; };
+		D9456C9F258E715B0084620E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		D9456CA0258E715B0084620E /* LogsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsHeaderView.swift; sourceTree = "<group>"; };
+		D9456CA1258E715B0084620E /* LogDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailView.swift; sourceTree = "<group>"; };
+		D9456CB8258E71AE0084620E /* OSCConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCConnection.swift; sourceTree = "<group>"; };
+		D9456CB9258E71AE0084620E /* OSCConnectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCConnectionView.swift; sourceTree = "<group>"; };
+		D9456CBA258E71AE0084620E /* OSCVersionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCVersionFooterView.swift; sourceTree = "<group>"; };
+		D9456CC9258E71FC0084620E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D9AF07A6252254CC00B2693B /* PtolemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtolemyApp.swift; sourceTree = "<group>"; };
 		D9AF07A7252254CC00B2693B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9AF07A8252254CD00B2693B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9456CD3258E7DA50084620E /* TailwindCSSColors in Frameworks */,
+				D9456CD1258E7DA50084620E /* OSCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +124,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9456C9C258E715B0084620E /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				D9456C9D258E715B0084620E /* LogsView.swift */,
+				D9456C9E258E715B0084620E /* LogRowView.swift */,
+				D9456C9F258E715B0084620E /* Log.swift */,
+				D9456CA0258E715B0084620E /* LogsHeaderView.swift */,
+				D9456CA1258E715B0084620E /* LogDetailView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
 		D9AF07A0252254CC00B2693B = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +152,13 @@
 		D9AF07A5252254CC00B2693B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D9456CC9258E71FC0084620E /* Theme.swift */,
+				D9456CB8258E71AE0084620E /* OSCConnection.swift */,
+				D9456CBA258E71AE0084620E /* OSCVersionFooterView.swift */,
+				D9456C9C258E715B0084620E /* Logs */,
 				D9AF07A6252254CC00B2693B /* PtolemyApp.swift */,
 				D9AF07A7252254CC00B2693B /* ContentView.swift */,
 				D9AF07A8252254CD00B2693B /* Assets.xcassets */,
-				D9391F582522560500CDCF60 /* SideBarNavigation.swift */,
-				D9391F5D2522574200CDCF60 /* PacketsView.swift */,
-				D9391F5F2522585E00CDCF60 /* AutomationsView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -145,8 +177,8 @@
 		D9AF07AF252254CD00B2693B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D9456CB9258E71AE0084620E /* OSCConnectionView.swift */,
 				D9AF07B0252254CD00B2693B /* Info.plist */,
-				D9391F5B2522561600CDCF60 /* TabNavigation.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -215,6 +247,10 @@
 			dependencies = (
 			);
 			name = "Ptolemy (macOS)";
+			packageProductDependencies = (
+				D9456CD0258E7DA50084620E /* OSCKit */,
+				D9456CD2258E7DA50084620E /* TailwindCSSColors */,
+			);
 			productName = "Ptolemy (macOS)";
 			productReference = D9AF07B5252254CD00B2693B /* Ptolemy.app */;
 			productType = "com.apple.product-type.application";
@@ -343,12 +379,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9391F602522585E00CDCF60 /* AutomationsView.swift in Sources */,
-				D9391F592522560500CDCF60 /* SideBarNavigation.swift in Sources */,
-				D9391F5C2522561600CDCF60 /* TabNavigation.swift in Sources */,
-				D9391F5E2522574200CDCF60 /* PacketsView.swift in Sources */,
+				D9456CA4258E715B0084620E /* LogRowView.swift in Sources */,
+				D9456CAA258E715B0084620E /* LogDetailView.swift in Sources */,
+				D9456CA6258E715B0084620E /* Log.swift in Sources */,
+				D9456CA8258E715B0084620E /* LogsHeaderView.swift in Sources */,
+				D9456CA2258E715B0084620E /* LogsView.swift in Sources */,
 				D9AF07D1252254CD00B2693B /* ContentView.swift in Sources */,
 				D9AF07CF252254CD00B2693B /* PtolemyApp.swift in Sources */,
+				D9456CBD258E71AE0084620E /* OSCConnectionView.swift in Sources */,
+				D9456CCA258E71FC0084620E /* Theme.swift in Sources */,
+				D9456CBF258E71AE0084620E /* OSCVersionFooterView.swift in Sources */,
+				D9456CBB258E71AE0084620E /* OSCConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9391F612522585E00CDCF60 /* AutomationsView.swift in Sources */,
-				D9391F5A2522560500CDCF60 /* SideBarNavigation.swift in Sources */,
-				D9391F622522586300CDCF60 /* PacketsView.swift in Sources */,
+				D9456CC0258E71AE0084620E /* OSCVersionFooterView.swift in Sources */,
+				D9456CA3258E715B0084620E /* LogsView.swift in Sources */,
+				D9456CA5258E715B0084620E /* LogRowView.swift in Sources */,
+				D9456CAB258E715B0084620E /* LogDetailView.swift in Sources */,
 				D9AF07D2252254CD00B2693B /* ContentView.swift in Sources */,
+				D9456CA9258E715B0084620E /* LogsHeaderView.swift in Sources */,
+				D9456CA7258E715B0084620E /* Log.swift in Sources */,
+				D9456CCB258E71FC0084620E /* Theme.swift in Sources */,
 				D9AF07D0252254CD00B2693B /* PtolemyApp.swift in Sources */,
+				D9456CBC258E71AE0084620E /* OSCConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,6 +813,16 @@
 			productName = OSCKit;
 		};
 		D9456C94258E6B7A0084620E /* TailwindCSSColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9456C93258E6B7A0084620E /* XCRemoteSwiftPackageReference "TailwindCSSColors" */;
+			productName = TailwindCSSColors;
+		};
+		D9456CD0258E7DA50084620E /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9456C2C258E41EF0084620E /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
+		D9456CD2258E7DA50084620E /* TailwindCSSColors */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D9456C93258E6B7A0084620E /* XCRemoteSwiftPackageReference "TailwindCSSColors" */;
 			productName = TailwindCSSColors;

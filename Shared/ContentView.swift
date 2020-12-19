@@ -7,36 +7,15 @@
 
 import SwiftUI
 
-enum Selection: String {
-    case packets
-    case automations
-    case none
-    
-    #if os(iOS)
-    case settings
-    #endif
-}
-
 struct ContentView: View {
     
-    #if os(iOS)
-    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-    #endif
-    
-    @SceneStorage("currentSelection") private var currentSelection: Selection = .settings
-    
     var body: some View {
-        #if os(iOS)
-        if horizontalSizeClass == .compact {
-            TabNavigation(currentSelection: $currentSelection)
-        } else {
-            SidebarNavigation(currentSelection: $currentSelection)
+        NavigationView {
+            OSCConnectionView()
         }
-        #else
-        SidebarNavigation(currentSelection: $currentSelection)
-            .frame(minWidth: 500, maxWidth: .infinity, minHeight: 400, maxHeight: .infinity)
-        #endif
+        .navigationViewStyle(StackNavigationViewStyle())
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
